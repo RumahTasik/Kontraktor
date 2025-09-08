@@ -146,7 +146,7 @@ orderButtons.forEach((button) => {
     const packageName = this.getAttribute("data-package");
     const packagePrice = this.getAttribute("data-price");
 
-    const message = `Halo Min, saya ingin menggunakan Jasa Arsitek ${packageName} (${packagePrice})`;
+    const message = `Halo Min, saya ingin menggunakan Jasa Kontraktor ${packageName} (${packagePrice})`;
 
     // encode pesan biar aman untuk URL
     const encodedMessage = encodeURIComponent(message);

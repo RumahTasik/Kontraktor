@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/Favor/icon.jpeg" />
+    <title>Kontraktor RumahTasik</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-wrapper">
+        <div class="logo">
+          <a href="../index.html#home"
+            ><img src="../img/Favor/logo navbar.svg" alt="logo"
+          /></a>
+        </div>
+        <div class="nav-links">
+          <a href="../index.html#layanan">Layanan</a>
+          <a href="../index.html#cara-kerja">Cara Kerja</a>
+          <a href="../index.html#portfolio">Portfolio</a>
+          <a href="../index.html#harga">Harga</a>
+          <a href="#penawaran">Proyek</a>
+        </div>
+        <div class="navbar-extra">
+          <a href="####"><i data-feather="menu" id="hamburger-menu"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Form Penawaran -->
+    <section id="penawaran" class="section">
+      <div class="container">
+        <h2>Konsultasi Proyek</h2>
+        <form id="penawaranForm">
+          <div class="form-group">
+            <input type="text" id="nama" placeholder="Nama Anda" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email Anda" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="wa" placeholder="No. WhatsApp" required />
+          </div>
+          <div class="form-group">
+            <select id="jenis">
+              <option value="Bangun Baru">Bangun Baru</option>
+              <option value="Renovasi">Renovasi</option>
+              <option value="Interior">Interior</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="budget"
+              placeholder="Estimasi Anggaran (Rp)"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="pesan"
+              placeholder="Tuliskan detail kebutuhan Anda"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-kontak">Kirim via WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 IT KontraktorRumahTasik. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

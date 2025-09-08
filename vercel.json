@@ -1,0 +1,35 @@
+{
+  "rewrites": [
+    {
+      "source": "/konsultasi-proyek/",
+      "destination": "/konsultasi-proyek/proyek.html"
+    },
+
+    {
+      "source": "/reverensi-design/:path*",
+      "destination": "/reverensi-design/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/layanan/index.html#layanan",
+      "destination": "/layanan",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/index.html#portfolio",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/kontak/index.html#kontak",
+      "destination": "/kontak",
+      "permanent": true
+    }
+  ]
+}
